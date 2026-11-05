@@ -125,13 +125,13 @@ const forestStewardship = [
     title: "Selective Logging Practices",
     description:
       "Unlike clear-cutting, Cameroon concessions practice selective logging: only commercially mature trees meeting size thresholds are harvested, preserving forest structure, wildlife habitat, and watershed functions.",
-    image: "/images/wood_products.jpg"
+    image: "/images/SAPELLI_log.jpg"
   },
   {
     title: "Community Forest Rights",
     description:
       "Community forests in Cameroon allow local populations to manage and benefit from timber resources. A percentage of revenues from community forest timber goes directly to local development projects.",
-    image: "/images/wood_products2.jpg"
+    image: "/images/bilinga_log.jpg"
   }
 ];
 

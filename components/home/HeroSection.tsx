@@ -15,8 +15,8 @@ import { hero, company } from "@/lib/content";
 
 const stats = [
   {
-    value: "6+ Species",
-    label: "Azobé, Tali, Sapelli, Padouk & More",
+    value: "7+ Species",
+    label: "Azobé, Tali, Sapelli, Ebony & More",
   },
   {
     value: "Logs & Timber",

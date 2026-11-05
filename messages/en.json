@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "title": "Prime Wood Global | Cameroon Hardwood Logs & Sawn Timber Exporter",
-    "description": "High-grade Cameroon hardwood logs and sawn timber Azobé, Tali, Sapelli, Padouk, Ayous, Iroko supplied to international commercial buyers through Douala and Kribi deep-water ports.",
-    "keywords": "Cameroon timber, African hardwood, Azobé, Tali, Sapelli, Padouk, Ayous, Iroko, timber supplier Cameroon, wood export, Douala port, Kribi port, sawn timber, hardwood logs"
+    "description": "High-grade Cameroon hardwood logs and sawn timber Azobé, Tali, Sapelli, Padouk, Ebony, Ayous, Iroko supplied to international commercial buyers through Douala and Kribi deep-water ports.",
+    "keywords": "Cameroon timber, African hardwood, Ebony, African Ebony, Diospyros crassiflora, Azobé, Tali, Sapelli, Padouk, Ayous, Iroko, timber supplier Cameroon, wood export, Douala port, Kribi port, sawn timber, hardwood logs"
   },
   "company": {
     "name": "Prime Wood Global",
@@ -61,13 +61,13 @@
     "titlePrefix": "Premium Cameroon Hardwood",
     "titleHighlight": "Logs & Sawn Timber",
     "titleSuffix": "for Global Importers",
-    "description": "High-grade commercial hardwood logs and precision-sawn timber Azobé, Tali, Sapelli, Padouk, and Ayous supplied directly from Cameroon to international wholesalers, contractors, and manufacturers.",
+    "description": "High-grade commercial hardwood logs and precision-sawn timber Azobé, Tali, Sapelli, Padouk, Ebony, and Ayous supplied directly from Cameroon to international wholesalers, contractors, and manufacturers.",
     "ctaQuote": "Request an Export Quote",
     "ctaWhatsApp": "WhatsApp Export Desk",
     "stats": {
       "species": {
         "value": "Commercial Species",
-        "detail": "Azobé, Tali, Sapelli, Padouk & more"
+        "detail": "Azobé, Tali, Sapelli, Padouk, Ebony & more"
       },
       "products": {
         "value": "Logs & Sawn Timber",
@@ -146,6 +146,20 @@
         "image": "/images/padouk 58x38.jpg"
       },
       {
+        "id": "ebony",
+        "name": "Ebony",
+        "scientificName": "Diospyros crassiflora",
+        "tradeNames": "African Ebony, Gaboon Ebony, Cameroon Ebony",
+        "category": "Luxury Decorative & Lutherie",
+        "density": "950 - 1,200 kg/m³ (Very Heavy)",
+        "durability": "Class 1 - Very Durable",
+        "color": "Deep jet black to charcoal with ultra-fine satiny luster",
+        "description": "Africa's most legendary luxury hardwood, renowned worldwide for its deep jet-black heartwood, exceptional density, and peerless role in master musical instruments, lutherie fingerboards, and fine turning.",
+        "uses": ["Musical instruments & guitar fingerboards", "Violin fittings, pegs & piano keys", "Luxury turning squares & billets", "High-end cutlery handles & inlays"],
+        "formsAvailable": "Dimensioned fingerboard blanks, turning squares, billets & select logs",
+        "image": "/images/ebony.jpg"
+      },
+      {
         "id": "ayous",
         "name": "Ayous",
         "scientificName": "Triplochiton scleroxylon",
@@ -202,7 +216,7 @@
         "badge": "Precision Tolerance",
         "description": "Sawn to exact contract thickness, width, and length tolerances for commercial contractors and importers who need immediate uniformity and fast jobsite installation upon arrival.",
         "specs": ["Strict dimensional tolerances (±1mm)", "Bundled with heavy-duty steel strapping", "Edge protection & plastic end caps on request", "Kiln-dried (KD) options available on select species"],
-        "image": "/images/wood_products2.jpg"
+        "image": "/images/Afromosia.jpg"
       }
     ],
     "availabilityNotice": {
@@ -289,7 +303,13 @@
         "id": "1",
         "category": "species",
         "question": "What timber species do you supply from Cameroon?",
-        "answer": "Our primary export focus is on Azobé (Lophira alata), Tali (Erythrophleum ivorense), Sapelli (Entandrophragma cylindricum), and Padouk (Pterocarpus soyauxii). In addition, we regularly supply Ayous (Obeche), Iroko, Bilinga, Sipo, and Doussié upon request. If you require another Cameroon species, contact our export desk and we will confirm current availability."
+        "answer": "Our primary export focus is on Azobé (Lophira alata), Tali (Erythrophleum ivorense), Sapelli (Entandrophragma cylindricum), Padouk (Pterocarpus soyauxii), and African Ebony (Diospyros crassiflora). In addition, we regularly supply Ayous (Obeche), Iroko, Bilinga, Sipo, and Doussié upon request. If you require another Cameroon species, contact our export desk and we will confirm current availability."
+      },
+      {
+        "id": "1b",
+        "category": "species",
+        "question": "Do you supply Cameroon Ebony (Diospyros crassiflora)?",
+        "answer": "Yes. We supply genuine Cameroon Ebony (Diospyros crassiflora) primarily as dimensioned musical instrument fingerboard blanks (guitar, violin, cello), turning squares, and wax-sealed billets. Every batch is graded, waxed at the ends to prevent checking, and supplied with full Cameroonian legal forestry documentation and phytosanitary certificates."
       },
       {
         "id": "2",
@@ -406,7 +426,7 @@
       "companyLabel": "Company Name",
       "companyPlaceholder": "Your Company Ltd",
       "speciesLabel": "Primary Timber Species",
-      "speciesPlaceholder": "Select species (Azobé, Tali, Sapelli, Padouk...)",
+      "speciesPlaceholder": "Select species (Azobé, Tali, Sapelli, Padouk, Ebony...)",
       "volumeLabel": "Target Volume / Containers",
       "volumePlaceholder": "e.g. 2 x 40ft containers (approx. 45 m³)",
       "destinationLabel": "Destination Port & Country",
@@ -419,7 +439,7 @@
     }
   },
   "footer": {
-    "aboutPWG": "Prime Wood Global is a registered Cameroon hardwood timber supplier and exporter. We deliver Azobé, Tali, Sapelli, Padouk, and premium African hardwoods to international commercial buyers worldwide through Douala and Kribi ports.",
+    "aboutPWG": "Prime Wood Global is a registered Cameroon hardwood timber supplier and exporter. We deliver Azobé, Tali, Sapelli, Padouk, Ebony, and premium African hardwoods to international commercial buyers worldwide through Douala and Kribi ports.",
     "speciesTitle": "Featured Species",
     "productsTitle": "Export Products",
     "companyTitle": "Company & Legal",

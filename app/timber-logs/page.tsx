@@ -23,7 +23,7 @@ const logSpecifications = [
   {
     id: "species",
     title: "Species",
-    description: "Azobé, Tali, Sapelli, Padouk, Iroko, Bilinga, Doussié, Afromosia, or other Cameroon hardwoods subject to sustainable harvest quotas and FLEGT licensing."
+    description: "Azobé, Tali, Sapelli, Padouk, Ebony, Iroko, Bilinga, Doussié, Afromosia, or other Cameroon hardwoods subject to sustainable harvest quotas and FLEGT licensing."
   },
   {
     id: "diameter",
@@ -219,7 +219,7 @@ export default function TimberLogsPage() {
 
             {/* Description */}
             <p className="text-lg sm:text-xl text-slate-200 leading-relaxed mb-8">
-              Export-grade Azobé, Tali, Sapelli, Padouk, and other premium hardwood logs for international buyers, sawmills, and industrial processors. Here's what defines a log shipment.
+              Export-grade Azobé, Tali, Sapelli, Padouk, Ebony, and other premium hardwood logs for international buyers, sawmills, and industrial processors. Here&apos;s what defines a log shipment.
             </p>
 
             {/* CTA Buttons */}
@@ -480,7 +480,7 @@ export default function TimberLogsPage() {
             {/* Image Side */}
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <Image
-                src="/images/wood_products.jpg"
+                src="/images/logs-BtgG5hd2.webp"
                 alt="Timber logs ready for export"
                 fill
                 className="object-cover"
@@ -644,7 +644,7 @@ export default function TimberLogsPage() {
                   Need Full Species Technical Details?
                 </h3>
                 <p className="text-sm text-slate-700 leading-relaxed max-w-3xl">
-                  Explore our comprehensive timber species catalog with density data, durability ratings, typical log diameters, sawing characteristics, and export guidelines for Azobé, Tali, Sapelli, Padouk, Bilinga, Afromosia, Doussié, and more.
+                  Explore our comprehensive timber species catalog with density data, durability ratings, typical log diameters, sawing characteristics, and export guidelines for Azobé, Tali, Sapelli, Padouk, Ebony, Bilinga, Afromosia, Doussié, and more.
                 </p>
               </div>
             </div>

@@ -49,7 +49,7 @@ export default function AboutSection() {
           <div>
             <div className="relative rounded-2xl overflow-hidden border border-[#e4e2d8] shadow-xl aspect-[4/3] bg-slate-900 group">
               <Image
-                src="/images/wood_products.jpg"
+                src="/images/cameroon_timber_hero.jpg"
                 alt="Prime Wood Global Cameroon sawmill and timber yard operations"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"

@@ -25,7 +25,7 @@ export default function AboutUsPage() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#0a2818] via-[#031d0d] to-[#06180e] text-white py-20 lg:py-28">
-        <div className="absolute inset-0 bg-[url('/images/wood_products.jpg')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/images/cameroon_timber_hero.jpg')] bg-cover bg-center opacity-10"></div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}
           <nav className="flex items-center gap-2 text-sm mb-8 text-white/70">

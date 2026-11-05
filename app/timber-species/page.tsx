@@ -30,6 +30,7 @@ interface SpeciesItem {
   swatchBg: string;
   swatchGradient: string;
   realImage?: string;
+  secondaryImage?: string;
   generalCharacteristics: string;
   appearance: string;
   density: string;
@@ -162,6 +163,37 @@ const speciesData: SpeciesItem[] = [
       "Specify whether fresh coral-red or pre-seasoned stock is preferred. For luxury decking or flooring runs, state required width and thickness profiles. Padouk sawdust is bright red and fine; proper dust extraction during factory processing is recommended.",
   },
   {
+    id: "ebony",
+    name: "Ebony",
+    scientificName: "Diospyros crassiflora",
+    tradeNames: "African Ebony · Gaboon Ebony · Cameroon Ebony · Ébène Noire",
+    category: "Decorative & Flooring",
+    tagline:
+      "The world's most coveted deep jet-black luxury hardwood, internationally celebrated for its ultra-dense grain, smooth satiny finish, and indispensable role in concert-grade lutherie, fingerboard blanks, and luxury artisanal turning.",
+    densityBadge: "950 - 1,200 kg/m³",
+    durabilityBadge: "Class 1 · Very Durable",
+    swatchBg: "#111111",
+    swatchGradient: "from-[#262626] via-[#141414] to-[#080808]",
+    realImage: "/images/ebony_boards.jpg",
+    secondaryImage: "/images/ebony_billets.jpg",
+    generalCharacteristics:
+      "Cameroon Ebony (Diospyros crassiflora) is recognized across international timber markets as the pinnacle of authentic African ebony. Possessing extraordinary density, an ultra-fine homogeneous cellular texture, and a lustrous jet-black coloration, it holds elite standing for master musical instrument fabrication (lutherie), acoustic components, luxury cutlery, and fine decorative turnery.",
+    appearance:
+      "Heartwood is deep jet-black to charcoal-black, occasionally displaying subtle dark brown-black mineral undertones or fine marbled streaks. Distinct from the pale creamy-white sapwood, which is cleanly excluded in export grades. The grain is predominantly straight to slightly irregular, yielding an exquisite satiny, semi-metallic natural sheen upon planing and fine sanding.",
+    density:
+      "Air-dry density ranges from 950 to 1,200 kg/m³ at 12% moisture content (green density exceeds 1,250–1,300 kg/m³), causing it to sink readily in water. It exhibits extraordinary compressive and bending strength with a Janka hardness exceeding 3,000 lbf, delivering unmatched surface durability and wear resistance against string friction and intense handling.",
+    durability:
+      "Class 1 (Very Durable). Extremely resistant to fungal rot, insect attack, and dry-wood borers. Its dense, non-porous structure makes it highly resilient against moisture absorption, oils, and perspiration when seasoned and buffed.",
+    typicalApplications:
+      "Stringed instrument fingerboards (guitar, violin, viola, cello, double bass), violin pegs, tailpieces, and chinrests, acoustic guitar bridges, piano sharps, woodwind bodies (clarinets, oboe bells), pool/snooker cues, luxury knife and cutlery handles, fine cabinetry inlays, luxury pen blanks, and bespoke turned art.",
+    sawnTimberConsiderations:
+      "Its extreme density demands sharp carbide-tipped or stellite tooling and moderate feed speeds. Saws cleanly with minimal tearout and polishes to a glass-smooth finish without heavy varnishes. End-grain surfaces must be promptly sealed with specialized paraffin wax (as standard on our export stock) to prevent drying checks and end splits during seasoning and transit.",
+    logSupplyConsiderations:
+      "Cameroon ebony trees produce modest trunk diameters (typically 25cm to 50cm+). Commercial supply is therefore concentrated on precision-cut billets, turning squares, fingerboard blanks, and select square flitches rather than massive sawn structural timbers. Every batch is graded, squared, and bundle-wrapped for export security.",
+    buyerConsiderations:
+      "Buyers should specify target dimensional specifications (e.g., standard guitar fingerboard blanks 500 × 70 × 9mm, violin fingerboard blanks, turning squares 40 × 40mm / 50 × 50mm, or custom billet sizes), color consistency preference (pure jet-black vs natural dark-streaked character), and target moisture content (air-dried seasoned stock with wax-sealed ends). Full Cameroonian legal timber verification and export documentation are supplied with each consignment.",
+  },
+  {
     id: "ayous",
     name: "Ayous",
     scientificName: "Triplochiton scleroxylon",
@@ -203,7 +235,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1-2 · Very Durable",
     swatchBg: "#7a4e1d",
     swatchGradient: "from-[#8c5a24] via-[#6e4215] to-[#54300a]",
-    realImage: "/images/wood_products2.jpg",
+    realImage: "/images/iroko.jpg",
     generalCharacteristics:
       "Iroko is an iconic African timber renowned for decades as the premier alternative to Asian Teak (Tectona grandis). It combines outstanding strength, superb outdoor weatherability, and dimensional stability with an attractive golden-brown timber aesthetic.",
     appearance:
@@ -293,7 +325,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1 · Very Durable",
     swatchBg: "#6b3419",
     swatchGradient: "from-[#7e3e1f] via-[#5f2b14] to-[#4a1f0d]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/doussie.jpg",
     generalCharacteristics:
       "Doussié is Africa's premier commercial decking timber, renowned globally for its striking aesthetic appeal, exceptional dimensional stability once seasoned, and proven long-term durability in exposed outdoor installations. It is the first-choice material for high-end residential and commercial exterior decking projects across Europe, Asia, and the Middle East.",
     appearance:
@@ -323,7 +355,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1 · Very Durable",
     swatchBg: "#1a1410",
     swatchGradient: "from-[#2b1f16] via-[#1a1410] to-[#0d0906]",
-    realImage: "/images/wood_products2.jpg",
+    realImage: "/images/wenge.jpg",
     generalCharacteristics:
       "Wengé is one of the most visually distinctive commercial African hardwoods, celebrated internationally for its deep chocolate-brown to nearly black heartwood dramatically contrasted by fine golden-tan parenchyma lines. Its exceptional density, hardness (Janka ~1,930 lbf), and wear resistance make it a premier choice for high-end architectural flooring and statement furniture pieces.",
     appearance:
@@ -353,7 +385,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1 · Very Durable",
     swatchBg: "#c49b3c",
     swatchGradient: "from-[#d4ab4e] via-[#b88a34] to-[#9c7128]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/okan.jpg",
     generalCharacteristics:
       "Okan is a premium heavy construction timber prized for its exceptional natural durability and mechanical strength (comparable to D40 strength class EN 338). Often called African Greenheart due to performance similarities to true Greenheart, Okan excels in the most demanding marine, hydraulic, and civil engineering applications where long service life under extreme exposure is paramount.",
     appearance:
@@ -383,7 +415,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1 · Very Durable",
     swatchBg: "#5c2d1a",
     swatchGradient: "from-[#6e3620] via-[#522614] to-[#3d1a0d]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/moabi.jpg",
     generalCharacteristics:
       "Moabi is one of Central Africa's most prestigious heavy construction timbers, sourced from massive forest giants that can live for centuries. It combines exceptional density (Janka hardness ~2,270 lbf), outstanding dimensional stability, and proven long-term durability in the harshest marine and civil engineering environments. Increasingly specified for luxury yacht decking and high-end structural projects.",
     appearance:
@@ -413,7 +445,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1-2 · Very Durable",
     swatchBg: "#6e2c2c",
     swatchGradient: "from-[#7d3535] via-[#5f2424] to-[#481717]",
-    realImage: "/images/wood_products2.jpg",
+    realImage: "/images/bubinga.jpg",
     generalCharacteristics:
       "Bubinga is among Africa's most prestigious decorative hardwoods, celebrated internationally for its breathtaking reddish-brown to deep purple-red heartwood dramatically enhanced by dark purple to nearly black streaks. When rotary-cut or quarter-sawn, it reveals spectacular ribbon-stripe, mottled, or waterfall figure patterns. Its combination of visual drama, exceptional hardness (Janka ~2,410 lbf), and superior stability makes it the ultimate choice for statement furniture and architectural showcases.",
     appearance:
@@ -443,7 +475,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2 · Durable",
     swatchBg: "#d4a846",
     swatchGradient: "from-[#ddb658] via-[#c89838] to-[#ad7f2a]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/movingui.jpg",
     generalCharacteristics:
       "Movingui is a versatile West and Central African hardwood valued for its bright, uniform golden-yellow color, moderate density (Janka ~1,280 lbf), and outstanding dimensional stability. Often specified as a cost-effective alternative to Iroko, it offers excellent natural durability combined with superior workability and aesthetic appeal for a wide range of architectural and marine applications.",
     appearance:
@@ -473,7 +505,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2 · Durable",
     swatchBg: "#6b2f1a",
     swatchGradient: "from-[#7d3820] via-[#5f2716] to-[#47190e]",
-    realImage: "/images/wood_products2.jpg",
+    realImage: "/images/hero-sawn-B4KWhbGX.webp",
     generalCharacteristics:
       "Sipo is one of Africa's premier mahogany-type timbers, increasingly specified as a superior alternative to Genuine Mahogany (Swietenia macrophylla). It offers a uniform reddish-brown color without the color variation common in other African mahoganies, higher density (Janka ~1,240 lbf), excellent dimensional stability, and superior natural durability. Sipo is the professional's choice for high-end exterior joinery, yacht construction, and executive furniture.",
     appearance:
@@ -503,7 +535,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 4-5 · Low / Class 1-2 TMT",
     swatchBg: "#d4c5a0",
     swatchGradient: "from-[#dfd0b0] via-[#c9ba90] to-[#b0a074]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/logs.jpg",
     generalCharacteristics:
       "Fraké (also widely known as Limba) is one of Central Africa's most versatile lightweight hardwoods. Its pale, uniform color, low density, excellent dimensional stability, and superior workability make it the material of choice for interior architectural mouldings, door frames, and core stock. When thermally modified (TMT Fraké/Korina), it transforms into a durable, dimensionally stable exterior cladding material with enhanced Class 1–2 durability.",
     appearance:
@@ -533,7 +565,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2 · Durable",
     swatchBg: "#5a2621",
     swatchGradient: "from-[#6b2f29] via-[#4d1f1a] to-[#3a140f]",
-    realImage: "/images/wood_products2.jpg",
+    realImage: "/images/sawn_log.jpg",
     generalCharacteristics:
       "Kosipo is a distinguished member of the Entandrophragma mahogany family, often referred to as 'Heavy Sapele' due to its higher density and darker color. It offers a rich, deep reddish-brown heartwood with distinctive purplish undertones and occasional dark resin deposits. Kosipo combines excellent dimensional stability, superior mechanical strength, and a stunning ribbon-stripe figure on quarter-sawn surfaces, making it a premium choice for luxury furniture and architectural millwork.",
     appearance:
@@ -563,7 +595,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2-3 · Durable",
     swatchBg: "#8f6f3a",
     swatchGradient: "from-[#a07f48] via-[#7d5f2e] to-[#5f4620]",
-    realImage: "/images/wood_products.jpg",
+    realImage: "/images/zingana.jpg",
     generalCharacteristics:
       "Zingana (Zebrawood/Zebrano) is one of the most visually striking commercial hardwoods in the world, instantly recognizable by its bold alternating light and dark stripes resembling zebra patterns. This Central African specialty timber combines exceptional visual drama with high density (Janka ~1,570 lbf), excellent dimensional stability, and good natural durability. It is the ultimate choice for statement furniture, decorative veneers, and luxury architectural accents where visual impact is paramount.",
     appearance:
@@ -776,19 +808,33 @@ export default function TimberSpeciesPage() {
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                     {/* LEFT COLUMN: SWATCH + SPECIES HEADER + CORE DETAILS (4 cols) */}
                     <div className="lg:col-span-4 space-y-5">
-                      {/* Wood Color Swatch with Subtle Wood Texture & Pill Badge */}
-                      <div className="relative aspect-[16/11] sm:aspect-[4/3] w-full rounded-xl overflow-hidden border border-[#d6cec0] shadow-inner group">
-                        <div
-                          className={`absolute inset-0 bg-gradient-to-br ${species.swatchGradient}`}
-                        />
-                        {/* Wood Grain Lines Effect */}
-                        <div
-                          className="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay"
-                          style={{
-                            backgroundImage:
-                              "repeating-linear-gradient(90deg, rgba(255,255,255,0.08) 0px, rgba(255,255,255,0.08) 2px, transparent 2px, transparent 10px)",
-                          }}
-                        />
+                      {/* Wood Color Swatch / Real Image with Pill Badge */}
+                      <div className="relative aspect-[16/11] sm:aspect-[4/3] w-full rounded-xl overflow-hidden border border-[#d6cec0] shadow-inner group bg-slate-900">
+                        {species.realImage ? (
+                          <>
+                            <Image
+                              src={species.realImage}
+                              alt={species.name}
+                              fill
+                              className="object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-black/25 pointer-events-none" />
+                          </>
+                        ) : (
+                          <>
+                            <div
+                              className={`absolute inset-0 bg-gradient-to-br ${species.swatchGradient}`}
+                            />
+                            {/* Wood Grain Lines Effect */}
+                            <div
+                              className="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay"
+                              style={{
+                                backgroundImage:
+                                  "repeating-linear-gradient(90deg, rgba(255,255,255,0.08) 0px, rgba(255,255,255,0.08) 2px, transparent 2px, transparent 10px)",
+                              }}
+                            />
+                          </>
+                        )}
 
                         {/* Top Badge: Density */}
                         <div className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-md text-white text-[11px] font-bold border border-white/20">
@@ -801,6 +847,29 @@ export default function TimberSpeciesPage() {
                           <span className="text-[#f5b324] font-bold uppercase text-[10px]">Cameroon Origin</span>
                         </div>
                       </div>
+
+                      {/* Secondary Yard Stock / Billets Photo if available */}
+                      {species.secondaryImage && (
+                        <div className="rounded-xl border border-[#d6cec0] bg-[#f8f6f0] p-3 space-y-2">
+                          <div className="flex items-center justify-between text-[11px] font-bold text-slate-700">
+                            <span>Export Yard Stock Photo</span>
+                            <span className="text-[#032f0e] bg-[#eaf4ed] px-2 py-0.5 rounded text-[10px] uppercase font-semibold">
+                              Wax-Sealed Billets
+                            </span>
+                          </div>
+                          <div className="relative aspect-[16/11] w-full rounded-lg overflow-hidden border border-slate-200">
+                            <Image
+                              src={species.secondaryImage}
+                              alt={`${species.name} stacked export billets on pallet`}
+                              fill
+                              className="object-cover hover:scale-105 transition-transform duration-500"
+                            />
+                          </div>
+                          <p className="text-[11px] text-slate-500 italic leading-snug">
+                            Palletized turning squares & billets prepared with wax-sealed end-grain at our Cameroon export facility.
+                          </p>
+                        </div>
+                      )}
 
                       {/* Species Title & Names */}
                       <div>

@@ -222,6 +222,7 @@ export default function RequestQuotePage() {
                       <option value="Tali">Tali (Erythrophleum ivorense)</option>
                       <option value="Sapelli">Sapelli (Entandrophragma cylindricum)</option>
                       <option value="Padouk">Padouk (Pterocarpus soyauxii)</option>
+                      <option value="Ebony">Ebony (Diospyros crassiflora)</option>
                       <option value="Ayous">Ayous (Triplochiton scleroxylon)</option>
                       <option value="Iroko">Iroko (Milicia excelsa)</option>
                       <option value="Bilinga">Bilinga (Nauclea diderrichii)</option>

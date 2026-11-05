@@ -115,6 +115,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/timber-species#ebony" className={linkClass}>
+                  Ebony
+                </Link>
+              </li>
+              <li>
                 <Link href="/timber-species#ayous" className={linkClass}>
                   Ayous
                 </Link>

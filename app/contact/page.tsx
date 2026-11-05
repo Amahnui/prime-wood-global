@@ -43,7 +43,7 @@ export default function ContactPage() {
       <section className="relative overflow-hidden bg-gradient-to-br from-[#0a2818] via-[#031d0d] to-[#06180e] text-white pt-20 pb-16 sm:pt-24 sm:pb-20 border-b border-[#0f381c]">
         <div className="absolute inset-0">
           <Image
-            src="/images/wood_products2.jpg"
+            src="/images/cameroon_timber_hero.jpg"
             alt="Contact Prime Wood Global"
             fill
             priority

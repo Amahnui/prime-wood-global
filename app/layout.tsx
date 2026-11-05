@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: siteContent.company.name,
     images: [
       {
-        url: "/images/wood_products2.jpg",
+        url: "/images/cameroon_timber_hero.jpg",
         width: 1200,
         height: 630,
         alt: "Prime Wood Global - Cameroon Hardwood Exporter",

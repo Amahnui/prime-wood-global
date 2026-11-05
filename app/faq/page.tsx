@@ -50,7 +50,7 @@ export default function FAQPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/wood_products2.jpg"
+            src="/images/cameroon_timber_hero.jpg"
             alt="Cameroon timber buyer frequently asked questions"
             fill
             priority

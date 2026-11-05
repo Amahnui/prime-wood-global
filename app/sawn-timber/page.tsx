@@ -22,7 +22,7 @@ const specifications = [
   {
     id: "species",
     title: "Species",
-    description: "Azobé, Tali, Sapelli, Padouk, Iroko, Bilinga, Doussié, or other Cameroon hardwoods available in stock."
+    description: "Azobé, Tali, Sapelli, Padouk, Ebony, Iroko, Bilinga, Doussié, or other Cameroon hardwoods available in stock."
   },
   {
     id: "product-type",
@@ -178,7 +178,7 @@ export default function SawnTimberPage() {
 
             {/* Description */}
             <p className="text-lg sm:text-xl text-slate-200 leading-relaxed mb-8">
-              Rough-sawn and dimensioned Azobé, Tali, Sapelli, and Padouk for international buyers. Here's what to agree on before a quotation.
+              Rough-sawn and dimensioned Azobé, Tali, Sapelli, Padouk, and Ebony for international buyers. Here&apos;s what to agree on before a quotation.
             </p>
 
             {/* CTA Buttons */}
@@ -411,7 +411,7 @@ export default function SawnTimberPage() {
                   Need Full Species Technical Details?
                 </h3>
                 <p className="text-sm text-slate-700 leading-relaxed max-w-3xl">
-                  Explore our comprehensive timber species catalog with density data, durability ratings, typical applications, sawing considerations, and buyer guidelines for Azobé, Tali, Sapelli, Padouk, Bilinga, Afromosia, Doussié, and more.
+                  Explore our comprehensive timber species catalog with density data, durability ratings, typical applications, sawing considerations, and buyer guidelines for Azobé, Tali, Sapelli, Padouk, Ebony, Bilinga, Afromosia, Doussié, and more.
                 </p>
               </div>
             </div>
