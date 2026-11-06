@@ -84,7 +84,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 1 · Very Durable",
     swatchBg: "#8a5020",
     swatchGradient: "from-[#9c5c24] via-[#7d4416] to-[#633510]",
-    realImage: "/images/bilinga 60x40.jpg",
+    realImage: "/images/tali.jpg",
     generalCharacteristics:
       "Tali is a heavy, hard-wearing timber prized for remarkable compressive and bending strength. It has become a premier choice for outdoor pedestrian decking, civil infrastructure, and hydraulic construction where both structural integrity and handsome weathered aesthetics are required.",
     appearance:
@@ -505,7 +505,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2 · Durable",
     swatchBg: "#6b2f1a",
     swatchGradient: "from-[#7d3820] via-[#5f2716] to-[#47190e]",
-    realImage: "/images/hero-sawn-B4KWhbGX.webp",
+    realImage: "/images/sipo.jpg",
     generalCharacteristics:
       "Sipo is one of Africa's premier mahogany-type timbers, increasingly specified as a superior alternative to Genuine Mahogany (Swietenia macrophylla). It offers a uniform reddish-brown color without the color variation common in other African mahoganies, higher density (Janka ~1,240 lbf), excellent dimensional stability, and superior natural durability. Sipo is the professional's choice for high-end exterior joinery, yacht construction, and executive furniture.",
     appearance:
@@ -535,7 +535,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 4-5 · Low / Class 1-2 TMT",
     swatchBg: "#d4c5a0",
     swatchGradient: "from-[#dfd0b0] via-[#c9ba90] to-[#b0a074]",
-    realImage: "/images/logs.jpg",
+    realImage: "/images/frake.jpg",
     generalCharacteristics:
       "Fraké (also widely known as Limba) is one of Central Africa's most versatile lightweight hardwoods. Its pale, uniform color, low density, excellent dimensional stability, and superior workability make it the material of choice for interior architectural mouldings, door frames, and core stock. When thermally modified (TMT Fraké/Korina), it transforms into a durable, dimensionally stable exterior cladding material with enhanced Class 1–2 durability.",
     appearance:
@@ -565,7 +565,7 @@ const speciesData: SpeciesItem[] = [
     durabilityBadge: "Class 2 · Durable",
     swatchBg: "#5a2621",
     swatchGradient: "from-[#6b2f29] via-[#4d1f1a] to-[#3a140f]",
-    realImage: "/images/sawn_log.jpg",
+    realImage: "/images/kosipo.jpg",
     generalCharacteristics:
       "Kosipo is a distinguished member of the Entandrophragma mahogany family, often referred to as 'Heavy Sapele' due to its higher density and darker color. It offers a rich, deep reddish-brown heartwood with distinctive purplish undertones and occasional dark resin deposits. Kosipo combines excellent dimensional stability, superior mechanical strength, and a stunning ribbon-stripe figure on quarter-sawn surfaces, making it a premium choice for luxury furniture and architectural millwork.",
     appearance:

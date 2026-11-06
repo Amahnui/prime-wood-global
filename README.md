@@ -102,7 +102,7 @@ Prime Wood Global supplies quality hardwood from Cameroon including Iroko, Sapel
 ### 📞 Contact Information
 
 - **Phone**: +237 6 74 42 98 93
-- **Email**: primewoodglobal@gmail.com
+- **Email**: Support@primewoodglobal.com
 - **WhatsApp**: +237 6 74 42 98 93
 - **Locations**: 
   - Bipindi Kribi, Kribi, Cameroon

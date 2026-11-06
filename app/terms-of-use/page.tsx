@@ -300,12 +300,12 @@ export default function TermsOfUsePage() {
                     <p><span className="font-medium">Address:</span> BP 5574 Douala, Cameroon</p>
                     <p><span className="font-medium">Phone:</span> +237 677 123 456</p>
                     <p><span className="font-medium">WhatsApp:</span> +237 677 123 456</p>
-                    <p><span className="font-medium">Email:</span> info@primewoodglobal.com</p>
+                    <p><span className="font-medium">Email:</span> Support@primewoodglobal.com</p>
                     <p><span className="font-medium">Website:</span> www.primewoodglobal.com</p>
                   </div>
                 </div>
                 <p className="mt-6">
-                  For legal matters, please direct correspondence to our legal department at legal@primewoodglobal.com.
+                  For legal matters, please direct correspondence to our legal department at Support@primewoodglobal.com.
                 </p>
               </div>
             </div>

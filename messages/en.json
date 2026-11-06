@@ -17,8 +17,8 @@
     "phoneHref": "tel:+237674429893",
     "whatsapp": "+237 6 74 42 98 93",
     "whatsappLink": "https://wa.me/237674429893?text=Hello%20Prime%20Wood%20Global%2C%20I%20would%20like%20to%20discuss%20a%20timber%20inquiry.",
-    "email": "primewoodglobal@gmail.com",
-    "emailHref": "mailto:primewoodglobal@gmail.com?subject=Timber%20Export%20Inquiry",
+    "email": "Support@primewoodglobal.com",
+    "emailHref": "mailto:Support@primewoodglobal.com?subject=Timber%20Export%20Inquiry",
     "facebook": "https://www.facebook.com/primewoodglobal",
     "facebookDisplay": "facebook.com/primewoodglobal",
     "locations": {
@@ -53,7 +53,7 @@
   "topBar": {
     "banner": "Cameroon Origin · Direct Commercial Hardwood Supply · Douala & Kribi Ports",
     "whatsappLabel": "WhatsApp: +237 6 74 42 98 93",
-    "emailLabel": "primewoodglobal@gmail.com",
+    "emailLabel": "Support@primewoodglobal.com",
     "facebookLabel": "Facebook"
   },
   "hero": {
@@ -115,7 +115,7 @@
         "description": "A very hard, dense African timber used increasingly across Europe and Asia as a premier alternative to Azobé for outdoor decking, civil structures, and heavy construction.",
         "uses": ["Outdoor decking & walkways", "Heavy civil works & sleepers", "Hydraulic works", "Industrial flooring"],
         "formsAvailable": "Round logs, rough-sawn planks, and squared beams",
-        "image": "/images/bilinga 60x40.jpg"
+        "image": "/images/tali.jpg"
       },
       {
         "id": "sapelli",
