@@ -26,6 +26,8 @@ export default function RequestQuotePage() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
@@ -33,9 +35,51 @@ export default function RequestQuotePage() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setError(null);
+
+    try {
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          type: "quote",
+          data: formData,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "Failed to submit quotation request");
+      }
+
+      setSubmitted(true);
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        companyName: "",
+        species: "Azobé",
+        productType: "Sawn Timber",
+        volume: "",
+        destination: "",
+        specifications: "",
+      });
+    } catch (err) {
+      console.error("Error submitting quote request:", err);
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Failed to submit quote request. Please try again."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const getWhatsAppPrefillUrl = () => {
@@ -143,6 +187,12 @@ export default function RequestQuotePage() {
                     Provide your timber requirements below. Our team responds within 24 hours.
                   </p>
                 </div>
+
+                {error && (
+                  <div className="p-3 rounded-lg bg-red-50 border border-red-200">
+                    <p className="text-sm text-red-600">{error}</p>
+                  </div>
+                )}
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
@@ -298,9 +348,12 @@ export default function RequestQuotePage() {
                 <div className="pt-2 flex flex-col sm:flex-row gap-3">
                   <button
                     type="submit"
-                    className="flex-1 py-3 px-6 rounded-lg bg-[#d5920c] hover:bg-[#b87b08] text-white font-bold text-sm shadow-md transition-all cursor-pointer text-center"
+                    disabled={isSubmitting}
+                    className={`flex-1 py-3 px-6 rounded-lg bg-[#d5920c] hover:bg-[#b87b08] text-white font-bold text-sm shadow-md transition-all text-center ${
+                      isSubmitting ? "opacity-50 cursor-not-allowed" : "cursor-pointer"
+                    }`}
                   >
-                    Submit Quote Request
+                    {isSubmitting ? "Submitting Request..." : "Submit Quote Request"}
                   </button>
 
                   <a
